@@ -1,0 +1,81 @@
+export const moviesData =[
+  {
+    id: "tortoise",
+    index: "01",
+    title: "The Talkative Tortoise",
+    themeClass: "bg-[#110a00] text-[#ffdd99]",
+    accentClass: "bg-[#ffaa00]",
+    tagline: "A tale of silence and survival.",
+    posterImg: "/images/m1_poster.jpg",
+    frameCount: 13,
+    frames:[
+      { id: 1, image: "/images/m1p1.jpg", text: "Deep in the jungle, by a beautiful, sparkling lake, lived three inseparable friends..." },
+      { id: 2, image: "/images/m1p2.jpg", text: "But as summer arrived, the rains failed..." },
+      { id: 3, image: "/images/m1p3.jpg", text: "The geese knew they had to fly away to find a new home..." },
+      { id: 4, image: "/images/m1p4.jpg", text: "The geese loved their friend dearly. After thinking long and hard..." },
+      { id: 5, image: "/images/m1p5.jpg", text: "The geese explained the rescue mission..." },
+      { id: 6, image: "/images/m1p6.jpg", text: "'You are very talkative,' the wise geese warned him..." },
+      { id: 7, image: "/images/m1p7.jpg", text: "The tortoise nodded eagerly, clamped his strong jaws..." },
+      { id: 8, image: "/images/m1p8.jpg", text: "Higher and higher they soared..." },
+      { id: 9, image: "/images/m1p9.jpg", text: "However, their flight path took them directly over a busy village..." },
+      { id: 10, image: "/images/m1p10.jpg", text: "A crowd gathered, pointing at the sky..." },
+      { id: 11, image: "/images/m1p11.jpg", text: "The tortoise heard their laughter. His ego was hurt..." },
+      { id: 12, image: "/images/m1p12.jpg", text: "The moment he spoke, he lost his grip on the stick..." },
+      { id: 13, image: "/images/m1p13.jpg", text: "And so, the tortoise learned the hardest lesson of all... Moral: Silence is often the best answer." }
+    ]
+  },
+  {
+    id: "fox",
+    index: "02",
+    title: "The Fox & Sour Grapes",
+    themeClass: "bg-[#f2f5f0] text-[#2c4c3b]",
+    accentClass: "bg-[#4a7c59]",
+    tagline: "A lesson in pride.",
+    posterImg: "/images/m2_poster.jpg",
+    frameCount: 15,
+    frames:[
+      { id: 1, image: "/images/m2p1.jpg", text: "It was a beautiful, breezy afternoon. A clever fox was wandering..." },
+      { id: 2, image: "/images/m2p2.jpg", text: "As he walked along the edge of a fast-moving river..." },
+      { id: 3, image: "/images/m2p3.jpg", text: "There, dangling just out of reach, was the most magnificent bunch..." },
+      { id: 4, image: "/images/m2p4.jpg", text: "The fox licked his lips. His mouth began to water..." },
+      { id: 5, image: "/images/m2p5.jpg", text: "Determined to have his feast, the fox crouched down..." },
+      { id: 6, image: "/images/m2p6.jpg", text: "But alas! He missed the grapes by mere inches..." },
+      { id: 7, image: "/images/m2p7.jpg", text: "He tried to climb the tree, but the trunk was too slippery..." },
+      { id: 8, image: "/images/m2p8.jpg", text: "The fox sat down, frustrated. But foxes are clever creatures..." },
+      { id: 9, image: "/images/m2p9.jpg", text: "Picking up the stone, the fox grinned..." },
+      { id: 10, image: "/images/m2p10.jpg", text: "With a mighty toss, the fox threw the stone high into the air..." },
+      { id: 11, image: "/images/m2p11.jpg", text: "SMACK! A direct hit! The stone struck the branch..." },
+      { id: 12, image: "/images/m2p12.jpg", text: "But to the fox's horror, the grapes did not fall onto the grass..." },
+      { id: 13, image: "/images/m2p13.jpg", text: "...and fell face-first into the shallow edge of the water! SPLASH!" },
+      { id: 14, image: "/images/m2p14.jpg", text: "Soaking wet and humiliated, the fox climbed out of the water..." },
+      { id: 15, image: "/images/m2p15.jpg", text: "And so, the proud fox learned a harsh truth... The End." }
+    ]
+  },
+  {
+    id: "detective",
+    index: "03",
+    title: "Clockwork Detective",
+    themeClass: "bg-[#1a1a1a] text-[#f4d03f]",
+    accentClass: "bg-[#e74c3c]",
+    tagline: "The simplest solution.",
+    posterImg: "/images/m3_poster.jpg",
+    frameCount: 15,
+    frames:[
+      { id: 1, image: "/images/m3p1.jpg", text: "In the bustling, mechanical city of Gearville, the Great Town Clock..." },
+      { id: 2, image: "/images/m3p2.jpg", text: "The citizens panicked! Without the clock, trains crashed..." },
+      { id: 3, image: "/images/m3p3.jpg", text: "Enter the Clockwork Detective! Though just a young boy..." },
+      { id: 4, image: "/images/m3p4.jpg", text: "The Mayor begged him to fix the clock..." },
+      { id: 5, image: "/images/m3p5.jpg", text: "The Detective entered the dark, dusty interior of the clock tower..." },
+      { id: 6, image: "/images/m3p6.jpg", text: "He immediately got to work, pulling out a massive chalkboard..." },
+      { id: 7, image: "/images/m3p7.jpg", text: "Hours passed. He brought out his heavy, steam-powered gadget..." },
+      { id: 8, image: "/images/m3p8.jpg", text: "He checked the oil pressure, measured the magnetic fields..." },
+      { id: 9, image: "/images/m3p9.jpg", text: "Exhausted and defeated, the Detective sat on the floor..." },
+      { id: 10, image: "/images/m3p10.jpg", text: "Suddenly, a tiny, ordinary bluebird flew through the open window..." },
+      { id: 11, image: "/images/m3p11.jpg", text: "The bird landed on one of the highest gears..." },
+      { id: 12, image: "/images/m3p12.jpg", text: "Curious, the Detective climbed up the tall ladder..." },
+      { id: 13, image: "/images/m3p13.jpg", text: "There, wedged perfectly between two giant metal teeth, was a tiny wooden twig..." },
+      { id: 14, image: "/images/m3p14.jpg", text: "Feeling a little embarrassed by all his complex gadgets, he pulled the twig free..." },
+      { id: 15, image: "/images/m3p15.jpg", text: "The city cheered as the clock struck noon! Moral: Sometimes, the simplest solution is the best." }
+    ]
+  }
+];

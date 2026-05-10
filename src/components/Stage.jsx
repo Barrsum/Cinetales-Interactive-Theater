@@ -44,7 +44,7 @@ export default function Stage({ view, setView, movies, onSelectMovie }) {
               <h1 className="font-display text-4xl md:text-7xl font-bold tracking-[0.15em] text-white uppercase mb-4 md:mb-6 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">CineTales</h1>
               <div className="w-16 md:w-24 h-[1px] bg-[#D4AF37]/50 mb-4 md:mb-8" />
               <p className="font-story text-base md:text-xl text-white/80 leading-relaxed mb-6 md:mb-10">
-                Welcome to a premium interactive theater experience. We currently have three exclusive shows running tonight. Admission is absolutely free—take your seat.
+                Welcome to a premium interactive theater experience. We currently have three exclusive shows running tonight. Admission is absolutely free! take your seat.
               </p>
               <button onClick={() => setView('marquee')} className="px-8 py-3 md:px-12 md:py-4 bg-[#D4AF37]/10 border border-[#D4AF37] text-[#D4AF37] font-display uppercase text-sm md:text-base tracking-[0.2em] hover:bg-[#D4AF37] hover:text-black transition-all shadow-[0_0_20px_rgba(212,175,55,0.2)]">
                 Admit One
